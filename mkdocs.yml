@@ -24,3 +24,10 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Turn On The Lights
+
+nav:
+  - Home: index.md
+  - Docs: docs.md
+  - Quickstart:
+    - Installation: guide/installation.md
+    - Basic Usage: guide/basic_usage.md
