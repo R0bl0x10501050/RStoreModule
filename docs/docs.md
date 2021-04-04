@@ -28,6 +28,8 @@
 ### RDataStore:Increment(...)
 #### Description:
 * Increments the specified obj's value by the specified amount in the cache
+!!! info ""
+    Remember, :Increment() will only work with numerical values!
 #### Parameters:
 * Obj - A unique key (can be an Instance, string, integer, etc.)
 * Amount - Amount to increase the current value by
