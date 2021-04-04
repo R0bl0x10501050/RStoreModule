@@ -36,6 +36,8 @@
 ### RDataStore:OnUpdate(...)
 #### Description:
 * Executes callback when the RDataStore is updated
+!!! tip "NewValue"
+    When the callback is executed, it provides a variable, "newValue". It'd be a good idea to take advantage of that!
 #### Parameters:
 * Callback - A function to execute every time the RDataStore is updated; callback includes `newValue` as a function parameter
 #### Returns:
@@ -43,6 +45,8 @@
 ### RDataStore:Save(...)
 #### Description:
 * Saves the specified obj's value to the Roblox Datastore API
+!!! success "Auto-Save"
+    When a player leaves or game:BindToClse() is fired, :Save() is automatically called.
 #### Parameters:
 * Obj - A unique key (can be an Instance, string, integer, etc.)
 #### Returns:
@@ -50,3 +54,5 @@
 ### RDataStore:SaveAll()
 #### Description:
 * Calls :Save() on all objs in each RDataStore
+!!! warning "Warning"
+    :SaveAll() can cause DataStore lag and it is not recommended that this method is used.
