@@ -46,7 +46,7 @@
 #### Description:
 * Saves the specified obj's value to the Roblox Datastore API
 !!! success "Auto-Save"
-    When a player leaves or game:BindToClse() is fired, :Save() is automatically called.
+    When a player leaves or game:BindToClose() is fired, :Save() is automatically called.
 #### Parameters:
 * Obj - A unique key (can be an Instance, string, integer, etc.)
 #### Returns:
