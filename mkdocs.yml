@@ -1,7 +1,7 @@
-site_name: RStore
-site_url: https://r0bl0x10501050.github.io/Roblox
-repo_name: R0bl0x10501050/Roblox
-repo_url: https://github.com/R0bl0x10501050/Roblox
+site_name: RStoreModule
+site_url: https://r0bl0x10501050.github.io/RStoreModule
+repo_name: R0bl0x10501050/RStoreModule
+repo_url: https://github.com/R0bl0x10501050/RStoreModule
 
 theme:
   name: material
