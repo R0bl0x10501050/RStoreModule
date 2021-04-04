@@ -29,5 +29,5 @@ nav:
   - Home: index.md
   - Docs: docs.md
   - Quickstart:
-    - Installation: guide/installation.md
-    - Basic Usage: guide/basic_usage.md
+    - Installation: Quickstart/installation.md
+    - Basic Usage: Quickstart/basic_usage.md
