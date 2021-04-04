@@ -5,5 +5,5 @@ RStore is a quick data saving module built for Roblox games.
 
 Thanks for choosing RStore!
 
-??? info "Fun Fact"
+??? info
     RStore was created in just a day, on 4/2/21!
