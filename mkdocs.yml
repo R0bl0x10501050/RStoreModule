@@ -31,3 +31,6 @@ nav:
   - Quickstart:
     - Installation: Quickstart/installation.md
     - Basic Usage: Quickstart/basic_usage.md
+    
+markdown_extensions:
+  - admonition
