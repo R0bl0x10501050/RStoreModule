@@ -1,7 +1,7 @@
 ## Installation
 
 !!! note "Installation"
-There are multiple ways to install RStore, but the first way is the easiest.
+    There are multiple ways to install RStore, but the first way is the easiest.
 
 ### 1. Roblox Model
 
