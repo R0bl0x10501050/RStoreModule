@@ -4,14 +4,14 @@
     This is an example of how to save player cash.
 
 First, you need to create a new RDataStore to save data.
-```lua
+``` lua
 local RStore = require("path.to.RStore")
 local RDataStore = RStore.new("datakey")
 ```
 
 Next, you probably have a variable or something you want to save.
 
-```lua
+``` lua
 local RStore = require("path.to.RStore")
 local CashStore = RStore.new("datakey")
 game.Players.PlayerAdded:Connect(function(plr)
@@ -21,7 +21,7 @@ end)
 
 Obviously, something makes the player earn some cash. In this case, let's make it add 10 cash every time they say "I want cash!"
 
-```lua
+``` lua
 local RStore = require("path.to.RStore")
 local CashStore = RStore.new("datakey")
 game.Players.PlayerAdded:Connect(function(plr)
