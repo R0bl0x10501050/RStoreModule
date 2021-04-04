@@ -1,3 +1,10 @@
+site_name: RStore
+site_url: https://r0bl0x10501050.github.io/Roblox
+repo_name: R0bl0x10501050/Roblox
+repo_url: https://github.com/R0bl0x10501050/Roblox
+
 theme:
   name: material
-site_name: R0bl0x10501050
+  palette:
+    primary: "Light Blue"
+    accent: "Light Blue"
