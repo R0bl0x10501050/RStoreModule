@@ -5,6 +5,21 @@ repo_url: https://github.com/R0bl0x10501050/Roblox
 
 theme:
   name: material
-  palette:
-    primary: "Black"
-    accent: "Light Blue"
+  
+  # Light mode
+    - light blue: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Turn Off The Lights
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Turn On The Lights
